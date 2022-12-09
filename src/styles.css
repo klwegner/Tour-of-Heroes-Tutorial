@@ -1,26 +1,27 @@
 *{
     background-color: black;
     color:white;
+    font-family: monospace;
     
 }
 
 /* Application-wide Styles */
 h1 {
     color: rgb(211, 155, 72);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     font-size: 250%;
   }
   h2, h3 {
     color: #444;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: monospace;
+        font-weight: lighter;
   }
   body {
     margin: 2em;
   }
   body, input[type="text"], button {
     color: #333;
-    font-family: Cambria, Georgia, serif;
+    font-family: monospace;
   }
   button {
     background-color: #eee;
@@ -45,6 +46,3 @@ h1 {
   }
   
   /* everywhere else */
-  * {
-    font-family: Arial, Helvetica, sans-serif;
-  }
