@@ -1,0 +1,86 @@
+.listOfHeroes {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+  font-size: xx-large;
+
+}
+ h2 {
+  color:rgb(211, 155, 72);
+  text-align: center;
+}
+
+.heroes {
+    margin: 0 0 2em 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    width: 30em;
+
+  }
+  
+ a {
+    display: flex;
+     justify-content: space-between;
+     text-decoration: none;
+     font-size: medium;
+     background-color: black;
+     color:gold;
+     width: 100%;
+
+  } 
+  
+li {
+    /* flex: 1; */
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: black;
+    margin: .5em;
+    padding: 0;
+    border-radius: 4px;
+    display: flex;
+    align-items: stretch;
+    height: 3.6em;
+    width: 12.5em;
+    border: 2px solid gold;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+ a:hover {
+    color: #ecb886;
+    background-color: #e6e6e6;
+    left: .1em;
+  }
+  
+
+span .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #405061;
+    /* line-height: 1em; */
+    margin-right: .8em;
+  }
+  
+  .heroes .name {
+    align-self: center;
+    background-color: transparent;
+    text-align: center;
+  }
+  .heroes .height {
+    align-self: center;
+    background-color: transparent;
+    padding-right:5%;
+      text-align: center;
+  }
+
+  .heroes .specialAttack {
+    align-self: center;
+    background-color: transparent;
+      text-align: center;
+  }

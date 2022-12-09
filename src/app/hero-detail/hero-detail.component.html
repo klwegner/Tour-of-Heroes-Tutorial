@@ -1,0 +1,18 @@
+<div class="heroDeets" *ngIf="hero">
+    <h2> {{hero.name | uppercase}} Details</h2>
+    
+    <div><span>ID: </span>{{hero.id}}</div>
+    <div><span>Name: </span>{{hero.name}}</div>
+    <div><span>Special Attack: </span>{{hero.specialAttack}}</div>
+    <div><span>Height (cm): </span>{{hero.height}}</div>
+    <h2>Edit Hero:</h2>
+    <div>
+        <label for="name">Hero Name: </label>
+        <input id="name" [(ngModel)]="hero.name" placeholder="name">
+        <label for="specialAttack">Special Attack: </label>
+        <input id="specialAttack" [(ngModel)]="hero.specialAttack" placeholder="special attack">
+        <label for="height">Hero Height: </label>
+        <input for="height" [(ngModel)]="hero.height" placeholder="hero height in cm">
+    </div>
+    <button type="button" (click)="goBack()">go back</button>
+    </div>
